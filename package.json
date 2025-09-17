@@ -1,0 +1,25 @@
+{
+  "name": "automation_website_js",
+  "version": "1.0.0",
+  "description": "Test code in JS for testing automation exercise web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrinjoySur/Automation_Website_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrinjoySur/Automation_Website_JS/issues"
+  },
+  "homepage": "https://github.com/SrinjoySur/Automation_Website_JS#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.1"
+  }
+}
