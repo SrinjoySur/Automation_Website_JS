@@ -4,13 +4,13 @@
 
         "paths": [
 
-            "tests/features/"
+            "features/"
 
         ],
 
         "require": [
 
-            "tests/steps/*.js"
+            "features/step_definitions/*.js"
 
         ],
 
