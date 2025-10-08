@@ -1,7 +1,6 @@
-import {Given,When,Then,setDefaultTimeout} from "@cucumber/cucumber";
+import {Before,After,Given,When,Then,setDefaultTimeout} from "@cucumber/cucumber";
 import { chromium, expect } from "@playwright/test";
 
-import { Page } from "from";
 
 setDefaultTimeout(60 * 1000);
 
